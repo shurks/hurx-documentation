@@ -1,4 +1,6 @@
-<img src="App logo.png" alt="Logo" style="height: 40px">&nbsp;&nbsp;&nbsp;<span style="vertical-align: top; line-height: 1; font-size: 36px;">Hurx Language</span>
+<img src="App logo.png" alt="Logo" style="height: 128px" />
+
+# Hurx Language
 
 Welcome to the documentation page for [Hurx](http://hurx.io) - a modern programming language designed to make web and mobile application development more efficient and streamlined.
 ___
@@ -17,13 +19,13 @@ In addition to the core language features, the documentation also covers advance
 
 ___
 
-### [Getting started](getting-started/index.md)
+### [Getting started](getting-started/readme.md)
 Learn how to get started with the Hurx language.
-### [Project reference](project-reference/index.md)
+### [Project reference](project-reference/readme.md)
 Everything you need to know to create and manage your projects using Hurx.
-### [Language reference](language-reference/index.md)
+### [Language reference](language-reference/readme.md)
 The Hurx handbook - containing the complete reference of our language.
-### [Community](community/index.md)
+### [Community](community/readme.md)
 The Hurx forums - where all Hurx developers can share their ideas and visions, help eachother out with code problems or connect with one another.
 ___
 You can support us [here](https://www.buymeacoffee.com/hurx), if you like the language!

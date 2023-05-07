@@ -8,15 +8,15 @@ We've also included a section on the Hurx `Standard Libraries`, which provide a 
 
 Whether you're building a simple script or a complex application, the Hurx language reference page is your go-to resource for all things Hurx. So dive in, explore the various sections, and discover the power and flexibility of the Hurx programming language.
 ___
-### [Building blocks](building-blocks/index.md)
+### [Building blocks](building-blocks/readme.md)
 In Hurx, building blocks refer to the fundamental elements of the language, such as classes, interfaces, enums, and types, that are used to build complex applications.
-### [Data types](data-types/index.md)
+### [Data types](data-types/readme.md)
 In Hurx, data types provide a way to classify and manipulate data, allowing developers to store and operate on various types of information within their programs.
-### [Operators](operators/index.md)
+### [Operators](operators/readme.md)
 Operators in Hurx are symbols or keywords used to perform operations on one or more operands, such as arithmetic or comparison operations, and are an essential part of the language's syntax.
-### [Control Structures](control-structures/index.md)
+### [Control Structures](control-structures/readme.md)
 Control structures in Hurx are programming constructs that enable the execution of code based on certain conditions or criteria. 
-### [Standard Libraries](libraries/index.md)
+### [Standard Libraries](libraries/readme.md)
 The standard library in Hurx provides developers with a comprehensive set of tools and frameworks to facilitate front-end and back-end web development, native app development, as well as core functionality such as data structures and algorithms.
 ___
 [Go back](../readme.md)
