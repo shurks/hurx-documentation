@@ -1,0 +1,194 @@
+~done~ Documentation
+    ~story~ Getting started
+    ~story~ Projects
+        ~story~ Templates
+            ~story~ Definition
+            ~story~ Built-in
+                ~story~ Hybrid
+                ~story~ Web
+                    ~story~ Application
+                    ~story~ Static
+                ~story~ Native
+                    ~story~ iOS
+                    ~story~ Android
+                ~story~ Server
+                    ~story~ Console
+                    ~story~ API
+                        ~story~ Restful
+                        ~story~ GraphQL
+                        ~story~ Socket
+                ~story~ Library
+            ~story~ Custom templates
+        ~story~ Configuration
+        ~story~ Architecture
+    ~done~ Language reference
+        ~done~ Building blocks
+            ~story~ Classes
+                ~story~ Definition
+                ~story~ Instantiation
+                ~story~ Constructors and destructors
+                ~story~ Class members
+                    ~story~ Properties
+                        ~story~ Definition
+                        ~story~ Initializer
+                            ~story~ Getter
+                            ~story~ Setter
+                            ~story~ Access modifiers
+                            ~story~ Shorthand notation
+                        ~story~ `Property` type
+                    ~story~ Methods
+                        ~story~ Definition
+                        ~story~ Parameters
+                            ~story~ `Parameter` type
+                                ~story~ `Parameter.Reflect` type
+                                    ~story~ `Parameter.Reflect.Name` type
+                                    ~story~ `Parameter.Reflect.Type` type
+                                    ~story~ `Parameter.Reflect.DefaultValue` type
+                        ~story~ Variables
+                            ~story~ Definition
+                            ~story~ Constant variables
+                        ~story~ Exceptions
+                        ~story~ Overloads
+                        ~story~ Testing
+                            ~story~ `Test` type
+                                ~story~ `Test.Assert` type
+                                    ~story~ `Test.Assert.Equals` type
+                                    ~story~ `Test.Assert.Not` type
+                        ~story~ Tasks
+                        ~story~ `Method` type
+                            ~story~ `Method.Reflect` type
+                                ~story~ `Method.Reflect.Name` type
+                                ~story~ `Method.Reflect.ReturnType` type
+                                ~story~ `Method.Reflect.Parameters` type
+                                ~story~ `Method.Reflect.Parameter` type
+                    ~story~ Access modifiers
+                    ~story~ `Member` type
+                ~story~ Inheritance
+                ~story~ Abstract classes
+                ~story~ Polymorphism
+                ~story~ Access modifiers
+                ~story~ Generic types
+                ~story~ Class extension
+                ~story~ Documentation
+                ~story~ `Class` type
+                    ~story~ `Class.Reflect` type
+                        ~story~ `Class.Reflect.Members` type
+                        ~story~ `Class.Reflect.Member` type
+                        ~story~ `Class.Reflect.Methods` type
+                        ~story~ `Class.Reflect.Method` type
+                        ~story~ `Class.Reflect.Tasks` type
+                        ~story~ `Class.Reflect.Task` type
+                        ~story~ `Class.Reflect.Properties` type
+                        ~story~ `Class.Reflect.Property` type
+            ~story~ Interfaces
+                ~story~ Definition
+                ~story~ Implementation
+                ~story~ Inheritance
+                ~story~ Polymorphism
+                ~story~ Generic types
+                ~story~ Documentation
+            ~story~ Enums
+                ~story~ Definition
+                ~story~ Enumeration values
+                ~story~ Inheritance
+                ~story~ Generic types
+                ~story~ `Enum` type
+            ~story~ Types
+                ~story~ Definition
+                ~story~ Inheritance
+                ~story~ Generic types
+                ~story~ Evaluation
+                ~story~ `Type` type
+                    ~story~ `Type.Alias` type
+                    ~story~ `Type.Transform` type
+                        ~story~ `Type.Transform.Exclude` type
+                        ~story~ `Type.Transform.Optional` type
+                        ~story~ `Type.Transform.Required` type
+                        ~story~ `Type.Transform.Pick` type
+                        ~story~ `Type.Transform.Omit` type
+        ~story~ Data-types
+            ~story~ Definition
+            ~story~ Basic types
+                ~story~ `String` type
+                    ~story~ `String.Expression` type
+                    ~story~ `String.Transform` type
+                        ~story~ `String.Transform.Lowercase` type
+                        ~story~ `String.Transform.Uppercase` type
+                        ~story~ `String.Transform.LowerCamelcase` type
+                        ~story~ `String.Transform.UpperCamelcase` type
+                ~story~ `Number` type
+                    ~story~ `Number.Integer` type
+                        ~story~ `Number.Integer.Range` type
+                    ~story~ `Number.Decimal` type
+                        ~story~ `Number.Decimal.Range` type
+                ~story~ `Boolean` type
+                    ~story~ `Boolean.True` type
+                    ~story~ `Boolean.False` type
+                ~story~ `Date` type
+                ~story~ `Array` type
+                    ~story~ `Array.Singleton` type
+                    ~story~ `Array.Sorted` type
+                    ~story~ `Array.Evaluate` type
+                ~story~ `Object` type
+                    ~story~ `Object.Dictionary` type
+                    ~story~ `Object.Combine` type
+                    ~story~ `Object.Assign` type
+                ~story~ `Function` type
+                    ~story~ `Function.Task` type
+                ~story~ `Void` type
+                    ~story~ `Void.Null` type
+                    ~story~ `Void.Undefined` type
+        ~story~ `Operator` types
+            ~story~ `Operator.Add` type
+                ~story~ `Operator.Add.Cumulative` type
+            ~story~ `Operator.Subtract` type
+                ~story~ `Operator.Subtract.Cumulative` type
+            ~story~ `Operator.Multiply` type
+                ~story~ `Operator.Multiply.Cumulative` type
+            ~story~ `Operator.Divide` type
+                ~story~ `Operator.Divide.Cumulative` type
+            ~story~ `Operator.Remainder` type
+                ~story~ `Operator.Remainder.Cumulative` type
+            ~story~ `Operator.Bitwise` type
+                ~story~ `Operator.Bitwise.AND` type
+                ~story~ `Operator.Bitwise.OR` type
+                ~story~ `Operator.Bitwise.XOR` type
+                ~story~ `Operator.Bitwise.NOT` type
+                ~story~ `Operator.Bitwise.Shift` type
+                    ~story~ `Operator.Bitwise.Shift.Left` type
+                    ~story~ `Operator.Bitwise.Shift.Right` type
+                        ~story~ `Operator.Bitwise.Shift.Right.WithZero` type
+        ~story~ `Control` structure type
+            ~story~ `Control.Loop` type
+                ~story~ `Control.Loop.For`
+                ~story~ `Control.Loop.While`
+                ~story~ `Control.Loop.DoWhile`
+                ~story~ `Control.Loop.Switch`
+            ~story~ `Control.Conditional` type
+                ~story~ `Control.Conditional.If`
+                ~story~ `Control.Conditional.ElseIf`
+                ~story~ `Control.Conditional.Else`
+            ~story~ `Control.ExceptionHandling`
+                ~story~ `Control.ExceptionHandling.Try`
+                ~story~ `Control.ExceptionHandling.Catch`
+                ~story~ `Control.ExceptionHandling.Finally`
+        ~story~ Standard Libraries
+            ~story~ Client functionality
+                ~story~ User interfaces
+            ~story~ Server functionality
+                ~story~ Microservices
+                ~story~ Console based servers
+                ~story~ API's
+            ~story~ Advanced topics
+            ~story~ Pseudo-programming
+                ~story~ `Pseudo` type
+                    ~story~ `Pseudo.Core` type
+                        ~story~ `Pseudo.Core.Todo` type
+                        ~story~ `Pseudo.Core.Comment` type
+                        ~story~ `Pseudo.Core.Documentation` type
+                        ~story~ `Pseudo.Core.Marker` type
+                        ~story~ `Pseudo.Core.Step` type
+            ~story~ Meta-programming
+                ~story~ Defining a syntax
+                ~story~ Defining a generator
+    ~story~ Community
