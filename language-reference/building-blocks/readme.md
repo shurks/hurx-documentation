@@ -14,4 +14,4 @@ Enums are a specialized type of data structure in Hurx that allow developers to 
 ### [Types](types/index.md)
 Finally, types are the foundation of data structures in Hurx, providing a way to define the shape and behavior of data. They can be used to define variables, function arguments, and return types, and can be customized to meet the specific needs of a program. In Hurx, types are created using the `type` keyword and can be composed of other types and data structures.
 ___
-[Go back](../index.md)
+[Go back](../readme.md)

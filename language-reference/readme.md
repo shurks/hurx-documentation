@@ -19,4 +19,4 @@ Control structures in Hurx are programming constructs that enable the execution 
 ### [Standard Libraries](libraries/index.md)
 The standard library in Hurx provides developers with a comprehensive set of tools and frameworks to facilitate front-end and back-end web development, native app development, as well as core functionality such as data structures and algorithms.
 ___
-[Go back](../index.md)
+[Go back](../readme.md)
